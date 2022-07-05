@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
   }
   body{
     min-height: 100vh;
-    background: #dce3e7;
+    background: #e1e9ed;
   }
   .top-bar{
     border-top: 10px;
@@ -65,11 +65,11 @@ app.get("/", (req, res) => {
     padding-top: 40px;
   }
   .brand-logo{
-      margin-left: 20px;
+      // margin-left: 20px;
       margin-bottom: 50px;
       padding: 10px;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
   }
   .brand-img{
     width: 50%;
@@ -154,7 +154,7 @@ app.get("/", (req, res) => {
   
   .info-link{
     text-align: center;
-      margin-top: 130px;
+      margin-top: 120px;
   }
   .info-link a:hover{
     
@@ -163,7 +163,7 @@ app.get("/", (req, res) => {
     
   }
   .nav {
-      background-color: #dce3e7;
+      background-color: #e1e9ed;
       overflow: hidden;
     padding-left: 320px;
     border: 1px solid grey;
@@ -364,7 +364,7 @@ app.get("/", (req, res) => {
       //let url = "https://ketaki-desale.app.bipp.io/embed/68cc77a6-fc72-497d-bbb9-0b1ffe01e579?id=707b84b7-7a5c-47a5-9847-a163319daa95&cid=f570dc6573a6478cb954e82fa603ae97.ketaki-desale.app.bipp.io&secret=MNTGHrqSnWBQ0zonnyfphbJn3!mFM!@RP!davQJi!lXkUFEz";
       //let url = "https://ketaki-desale.app.bipp.io/embed/443c2551-937f-44c6-8252-88f3d4739ebc?id=a8c75ef8-d90a-404f-a5de-5139952513ab&cid=16cc46c2c9054fdeac09ea1f6385b380.ketaki-desale.app.bipp.io&secret=r6hXP@nwPUmDFeRO9R@b25dyrfTIv65mOsVPPKEtPJRQncPF";    
       let url = "https://ketaki-desale.app.bipp.io/embed/8f218b52-81d0-43b6-91e0-6e1ef4723355?id=cfca35f2-bef1-4ab2-b7f7-75a9c3b85dc4&cid=7dd455af86b04e5b986d28d45c25a4b8.ketaki-desale.app.bipp.io&secret=uty5e8Rd3Pm9bzLcuEyncN99ubuLjLEafckIIWquGwGFJ9q6";
-      let config = { id : 'container', width: "100%",height: "650px", style: 'border:none; padding-left:305px' }
+      let config = { id : 'container', width: "100%",height: "690px", style: 'border:none; padding-left:305px' }
       
       let bipp = new Bipp();
       bipp.load(url, config);
