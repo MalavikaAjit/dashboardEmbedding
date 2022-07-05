@@ -67,7 +67,7 @@ app.get("/", (req, res) => {
   .brand-logo{
       // margin-left: 20px;
       margin-bottom: 50px;
-      padding: 10px;
+      padding: 9px 9px 9px 20px;
       display: flex;
       justify-content: flex-start;
   }
@@ -259,6 +259,11 @@ app.get("/", (req, res) => {
       }
       
   }
+  @media screen and (max-width: 2560px) {
+    .info-link{
+      margin-top: 470px;
+    }
+  }
   
     </style>
     <title>Heroku Project 33</title>
@@ -364,7 +369,7 @@ app.get("/", (req, res) => {
       //let url = "https://ketaki-desale.app.bipp.io/embed/68cc77a6-fc72-497d-bbb9-0b1ffe01e579?id=707b84b7-7a5c-47a5-9847-a163319daa95&cid=f570dc6573a6478cb954e82fa603ae97.ketaki-desale.app.bipp.io&secret=MNTGHrqSnWBQ0zonnyfphbJn3!mFM!@RP!davQJi!lXkUFEz";
       //let url = "https://ketaki-desale.app.bipp.io/embed/443c2551-937f-44c6-8252-88f3d4739ebc?id=a8c75ef8-d90a-404f-a5de-5139952513ab&cid=16cc46c2c9054fdeac09ea1f6385b380.ketaki-desale.app.bipp.io&secret=r6hXP@nwPUmDFeRO9R@b25dyrfTIv65mOsVPPKEtPJRQncPF";    
       let url = "https://ketaki-desale.app.bipp.io/embed/8f218b52-81d0-43b6-91e0-6e1ef4723355?id=cfca35f2-bef1-4ab2-b7f7-75a9c3b85dc4&cid=7dd455af86b04e5b986d28d45c25a4b8.ketaki-desale.app.bipp.io&secret=uty5e8Rd3Pm9bzLcuEyncN99ubuLjLEafckIIWquGwGFJ9q6";
-      let config = { id : 'container', width: "100%",height: "690px", style: 'border:none; padding-left:305px' }
+      let config = { id : 'container', width: "100%",height: "100%", style: 'border:none; padding-left:305px' }
       
       let bipp = new Bipp();
       bipp.load(url, config);
