@@ -259,7 +259,7 @@ app.get("/", (req, res) => {
       }
       
   }
-  @media screen and (max-width: 2560px) {
+  @media (min-width: 1025px) and and (max-width: 2560px) {
     .info-link{
       margin-top: 470px;
     }
