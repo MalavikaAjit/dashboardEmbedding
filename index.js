@@ -154,7 +154,7 @@ app.get("/", (req, res) => {
   
   .info-link{
     text-align: center;
-      margin-top: 120px;
+    margin-top: 50px;
   }
   .info-link a:hover{
     
@@ -298,7 +298,7 @@ app.get("/", (req, res) => {
           </span>
       </a>
     </li>
-    <li class="list active">
+    <li class="list ">
       <b></b>
       <b></b>
       <a href="#">
@@ -306,7 +306,7 @@ app.get("/", (req, res) => {
         <span class="title">Home</span>
       </a>
     </li>
-    <li class="list">
+    <li class="list active">
       <b></b>
       <b></b>
       <a href="#">
