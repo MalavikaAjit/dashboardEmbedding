@@ -71,13 +71,12 @@ app.get("/", (req, res) => {
       // display: flex;
       // justify-content: flex-start;
 
-      margin-bottom: 50px;
-      padding: 2px 9px 9px 20px;
+      padding: 2px 9px 0px 20px;
       display: flex;
       justify-content: flex-start;
   }
   .brand-img{
-    width: 37%;
+    width: 33%;
   }
   .navigation ul li {
     position: relative;
@@ -353,7 +352,7 @@ app.get("/", (req, res) => {
         <span class="title">Sign Out</span>
       </a>
     </li>
-    <li class="info-link">
+    <li class="info-link active">
       <b></b>
       <b></b>
       <a href="https://bipp.io/platform/embedded-analytics/">
