@@ -159,6 +159,11 @@ app.get("/", (req, res) => {
   .info-link{
     text-align: center;
     margin-top: 50px;
+    position: relative;
+    list-style: none;
+    width: 90%;
+    padding: 16px;
+    border-radius: 20px
   }
   .info-link a:hover{
     
