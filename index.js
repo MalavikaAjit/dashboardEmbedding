@@ -66,13 +66,18 @@ app.get("/", (req, res) => {
   }
   .brand-logo{
       // margin-left: 20px;
+      // margin-bottom: 50px;
+      // padding: 9px 9px 9px 20px;
+      // display: flex;
+      // justify-content: flex-start;
+
       margin-bottom: 50px;
-      padding: 9px 9px 9px 20px;
+      padding: 2px 9px 9px 20px;
       display: flex;
       justify-content: flex-start;
   }
   .brand-img{
-    width: 50%;
+    width: 37%;
   }
   .navigation ul li {
     position: relative;
@@ -163,7 +168,8 @@ app.get("/", (req, res) => {
     
   }
   .nav {
-      background-color: #e1e9ed;
+      // background-color: #e1e9ed;
+      background-color: #135bcf;
       overflow: hidden;
     padding-left: 320px;
     border: 1px solid grey;
@@ -224,7 +230,8 @@ app.get("/", (req, res) => {
   }
   .username .title{
     font-size: 20px;
-    color: #353d7f;
+    // color: #353d7f;
+    color: white;
     float: inherit;
     padding: 10px;
   }
