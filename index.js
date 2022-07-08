@@ -279,7 +279,7 @@ app.get("/", (req, res) => {
 <script src="https://unpkg.com/bipp"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   
-<div class="top-bar"></div>
+<div></div>
 <div class="nav">
 
       <div class="search-container">
