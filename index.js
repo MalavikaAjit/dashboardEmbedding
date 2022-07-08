@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
   }
   .navigation {
     position: fixed;
-    top: 15px;
+    top: 1px;
     bottom: 10px;
     width: 300px;
     border-bottom-right-radius: 10px;
@@ -62,7 +62,7 @@ app.get("/", (req, res) => {
     left: 0;
     width: 100%;
     padding-left: 5px;
-    padding-top: 40px;
+    padding-top: 1px;
   }
   .brand-logo{
       // margin-left: 20px;
