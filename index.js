@@ -76,7 +76,7 @@ app.get("/", (req, res) => {
       justify-content: flex-start;
   }
   .brand-img{
-    width: 33%;
+    width: 100%;
   }
   .navigation ul li {
     position: relative;
@@ -305,7 +305,7 @@ app.get("/", (req, res) => {
     <li class="nav-item mr-auto">
       <a href="#" target="_self">
           <span class="brand-logo">
-              <img class="brand-img" src="c-mart logo.jpg" alt="logo" class="">
+              <img class="brand-img" src="cmart logo.jpg" alt="logo" class="">
           </span>
       </a>
     </li>
