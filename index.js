@@ -189,10 +189,10 @@ app.get("/", (req, res) => {
       text-decoration: none;
   }
   
-  .nav a:hover {
-      background-color: #ddd;
-      color: #000;
-  }
+  // .nav a:hover {
+  //     background-color: #ddd;
+  //     color: #000;
+  // }
   
   .nav a.active {
       background-color: #04AA6D;
@@ -362,7 +362,7 @@ app.get("/", (req, res) => {
       <b></b>
       <a href="https://bipp.io/platform/embedded-analytics/">
         
-        <span class="info-title">To know more about bipp's Embedded Analytics, click here.</span>
+        <span class="info-title">To know more about bipp's Embedded Analytics,  <br> click here.</span>
       </a>
     </li>
   </ul>
