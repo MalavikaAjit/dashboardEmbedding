@@ -71,7 +71,7 @@ app.get("/", (req, res) => {
       // display: flex;
       // justify-content: flex-start;
 
-      padding: 2px 9px 0px 20px;
+      padding: 2px 2px 0px 0px;
       display: flex;
       justify-content: flex-start;
   }
