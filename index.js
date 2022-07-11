@@ -305,7 +305,7 @@ app.get("/", (req, res) => {
     <li class="nav-item mr-auto">
       <a href="#" target="_self">
           <span class="brand-logo">
-              <img class="brand-img" src="cmart-logo.jpg" alt="logo" class="">
+              <img class="brand-img" src="cmart-logo.png" alt="logo" class="">
           </span>
       </a>
     </li>
