@@ -155,6 +155,11 @@ app.get("/", (req, res) => {
     line-height: 60px;
     white-space: normal;
   }
+  .list{
+    margin-left: 12px;
+  }
+  
+  
   
   .info-link{
     text-align: center;
@@ -163,7 +168,8 @@ app.get("/", (req, res) => {
     list-style: none;
     width: 90%;
     padding: 16px;
-    border-radius: 20px
+    border-radius: 20px;
+    margin-left: 12px;
   }
   .info-link a:hover{
     
@@ -244,9 +250,7 @@ app.get("/", (req, res) => {
     border-radius: 25px;
   }
   
-  /* .nav .search-container button:hover {
-   
-  } */
+  
   
   @media screen and (max-width: 600px) {
       
@@ -270,11 +274,7 @@ app.get("/", (req, res) => {
       }
       
   }
-  // @media (min-width: 1025px) and and (max-width: 2560px) {
-  //   .info-link{
-  //     margin-top: 470px;
-  //   }
-  // }
+ 
   
     </style>
     <title>Heroku Project 33</title>
